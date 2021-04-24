@@ -1,8 +1,8 @@
 all: dev
 
 dev run:
-	cd myblog && bundle exec jekyll serve --livereload
+	bundle exec jekyll serve --livereload
 
 build:
-	cd myblog && jekyll build --future"
+	jekyll build --future
 
